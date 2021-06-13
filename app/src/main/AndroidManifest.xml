@@ -3,6 +3,8 @@
     package="com.example.registerloginexample">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RegisterLoginExample"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Googlemap" />
+        <activity android:name=".Googlemap"></activity>
+        <activity android:name=".Gps" />
+        <activity android:name=".Gpsbtn" />
+        <activity android:name=".Ledbtn" />
+        <activity android:name=".Backbtn" />
+        <activity android:name=".sosbtn" />
         <activity android:name=".Display" />
         <activity android:name=".LoginActivity">
             <intent-filter>
